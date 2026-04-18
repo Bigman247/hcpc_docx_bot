@@ -1,0 +1,21 @@
+{
+  "name": "hcpc-sop-docx-bot",
+  "version": "2.0.0",
+  "description": "HCPC SOP Mapper — generates Word documents and emails them",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "axios": "^1.6.0",
+    "docx": "^8.5.0",
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.9.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
